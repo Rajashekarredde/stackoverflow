@@ -23,15 +23,15 @@ The addition of Kafka in the middleware gives better throughput when scaled hori
 *	The server's load was distributed and handled via load balancing to multiple instances of our application.
 *	To reduce the strain on the database, Redis caching was employed for the most frequently used APIs, resulting in improved speed and retrieval.
 *	For system speed and scalability over the data layer, connection pooling was used.
-*	Using Kafka, we were able to build a fault-tolerant and scalable system. As the number of concurrent users grew, each thread was handled in a reliable     manner.
-*	We utilized Kafka as a messaging queue to handle numerous requests in the backend to manage big-weight resources. We also used Connection pooling to       speed up the fetch response.
+*	Using Kafka, I was able to build a fault-tolerant and scalable system. As the number of concurrent users grew, each thread was handled in a reliable     manner.
+*	I utilized Kafka as a messaging queue to handle numerous requests in the backend to manage big-weight resources. I also used Connection pooling to       speed up the fetch response.
 
 ## Policy used to decide entry of data into database
 #### MySQL : 
-We have stored tags in MySQL because these entities are independent. 
+I stored tags in MySQL because these entities are independent. 
 
 #### MongoDB:
-MongoDB is a schema-less database, and its unstructured. We have stored messages, questions, and users in MongoDB for faster retrieval.
+MongoDB is a schema-less database, and its unstructured. I stored messages, questions, and users in MongoDB for faster retrieval.
 Scaling helps in increasing the performance of an application.
 
 ## Screenshots of the App
