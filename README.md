@@ -1,6 +1,9 @@
 ##  stack-overflow-clone
 
 ## Architecture Diagram
+<img src="https://github.com/Rajashekarredde/stackoverflow/blob/main/images/architecture.png">
+
+## Screenshots
 
 
 ### Tech Stack
