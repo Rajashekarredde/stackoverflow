@@ -5,7 +5,6 @@
 
 ## Screenshots of the App
 
-#### Architecture Diagram
 <img src="https://github.com/Rajashekarredde/stackoverflow/blob/main/images/architecture.png">
 
 #### Database Schema
