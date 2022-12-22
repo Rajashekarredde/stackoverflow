@@ -1,5 +1,6 @@
 ##  stack-overflow-clone
 
+## Architecture Diagram
 
 
 ### Tech Stack
